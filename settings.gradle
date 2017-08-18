@@ -1,0 +1,1 @@
+include ':app', ':core', ':client-mipush', ':client-meizu', ':client-huawei', ':client-baidu', ':client-xinge', ':client-getui', ':client-ali'

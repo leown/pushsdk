@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.coohua.pushsdk"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+
+        manifestPlaceholders = [
+                PACKAGE_NAME      : "com.coohua.pushsdk",
+                BAIDU_PUSH_APP_KEY: "rvf3m1lg4B0SUiwHBCvlllTuUIrliLTb",
+                MEIZU_PUSH_APP_ID : "111063",
+                MEIZU_PUSH_APP_KEY: "23c6b530694c45bc89567d18dcb9b1ff",
+                XG_ACCESS_ID      : "2100265058",
+                XG_ACCESS_KEY     : "A1M35M6EB6KI",
+                GETUI_APP_ID      : "igqFMGM9PB960Ttwa70ELA",
+                GETUI_APP_KEY     : "U9ADr3Qf3p8CcemzZCdkd4",
+                GETUI_APP_SECRET  : "1STji7rDoJASjghy70k5J5",
+                ALI_APP_KEY       : "24588011",
+                ALI_APP_SECRET    : "3ce21b6f005ebf48a314b049edcd0dac"
+        ]
+        ndk {
+            abiFilters 'armeabi'
+        }
+
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //魅族推送只支持Flyme系统，务必需要注意
+}

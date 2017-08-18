@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoohuaPushSdk.iml" filepath="$PROJECT_DIR$/CoohuaPushSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-ali/client-ali.iml" filepath="$PROJECT_DIR$/client-ali/client-ali.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-baidu/client-baidu.iml" filepath="$PROJECT_DIR$/client-baidu/client-baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-getui/client-getui.iml" filepath="$PROJECT_DIR$/client-getui/client-getui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-huawei/client-huawei.iml" filepath="$PROJECT_DIR$/client-huawei/client-huawei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-meizu/client-meizu.iml" filepath="$PROJECT_DIR$/client-meizu/client-meizu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-mipush/client-mipush.iml" filepath="$PROJECT_DIR$/client-mipush/client-mipush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-xinge/client-xinge.iml" filepath="$PROJECT_DIR$/client-xinge/client-xinge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+    </modules>
+  </component>
+</project>
