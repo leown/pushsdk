@@ -51,4 +51,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     //魅族推送只支持Flyme系统，务必需要注意
+    compile project(':client-ali')
+    compile project(':client-baidu')
+    compile project(':client-huawei')
+    compile project(':client-meizu')
+    compile project(':client-mipush')
+    compile project(':core')
 }
